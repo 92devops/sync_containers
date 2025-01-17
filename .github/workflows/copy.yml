@@ -19,5 +19,5 @@ jobs:
       - name: Use Skopeo Copy
         run: |
           skopeo --version
-          skopeo login --username=dengyouf --password=${{ secrets.REGISTRY_PASSWORD }} registry.cn-beijing.aliyuncs.com
+          skopeo login --username=dengyouf --password=dy6545286@DY  registry.cn-beijing.aliyuncs.com
           sh copy.sh
